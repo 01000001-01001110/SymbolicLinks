@@ -1,5 +1,6 @@
 <#
-
+By Alan Newingham
+Date: 2/2020
 Creates Symbolic links for 
 Desktop
 Documents
@@ -11,7 +12,6 @@ Ie
 Adobe signatures
 Outlook signatures
 and syncs these directories with all content to the specified onedrive directory.
-
 #>
 
 
