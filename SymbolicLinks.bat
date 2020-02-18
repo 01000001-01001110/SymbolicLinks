@@ -16,7 +16,7 @@ setlocal
 set un=%username%
 :: Uses %un% to append the directory within Onedrive.
 :: This was a suggestion by JohnS. Works out really well. This way the backups are already done to the users profile name within onedrive.
-set SLL=%UserProfile%\OneDrive - Embry-Riddle Aeronautical University\%un%
+set SLL=%UserProfile%\OneDrive \%un%
 
 :: I am using "call" here to be fancy. There's other ways of doing this.
 
